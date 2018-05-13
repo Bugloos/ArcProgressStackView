@@ -210,9 +210,7 @@ public class ArcProgressStackView extends View {
             setIsLeveled(
                     typedArray.getBoolean(R.styleable.ArcProgressStackView_apsv_leveled, false)
             );
-            setTypeface(
-                    typedArray.getString(R.styleable.ArcProgressStackView_apsv_typeface)
-            );
+           
             setTextColor(
                     typedArray.getColor(
                             R.styleable.ArcProgressStackView_apsv_text_color,
